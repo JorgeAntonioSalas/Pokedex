@@ -14,6 +14,7 @@ const CharacterItem = ({characterUrl}) => {
         axios.get(characterUrl)
         .then(res=>setCharacter(res.data));
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     console.log(character)
