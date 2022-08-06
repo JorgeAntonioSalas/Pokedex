@@ -3,7 +3,6 @@ import axios from 'axios';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { useParams} from 'react-router-dom';
-import { type } from '@testing-library/user-event/dist/type';
 
 const PokemonDetail = () => {
 
