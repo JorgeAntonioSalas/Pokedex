@@ -18,14 +18,23 @@ const UserInput = () => {
         navigate("/Pokedex")
     }
     return (
+
+        
+        
+
+        
         <form onSubmit={submit}>
+            <h1>Bienvenido entrenador,  antes de comenzar ingresa tu nombre !</h1>
+            <div>
             <input 
                 type="text"
                 value={userName}
                 onChange={e => setUserName(e.target.value)}         
             />
             <button>Submit</button>
+            </div>
         </form>
+        
     );
 };
 
